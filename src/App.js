@@ -1,6 +1,6 @@
-import Costs from "./components/Costs";
+import Costs from "./components/costs/Costs";
 
-function App() {
+const App = () => {
 
     const costs = [
         {
@@ -26,6 +26,6 @@ function App() {
             <Costs costs={costs}/>
         </div>
     );
-}
+};
 
 export default App;
